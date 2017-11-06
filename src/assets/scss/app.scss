@@ -53,10 +53,49 @@
 @include motion-ui-animations;
 
 
+.navbar  {
+  padding: 20px 15px;
+}
 
 .top-bar li a {
   color: $topbar-link-color;
   &:hover {
     color: $topbar-link-hover-color;
+  }
+}
+
+.home-wrapper {
+  background: url('../img/home/slider-bg.png') repeat-x;
+  background-position: bottom;
+}
+
+.home {
+  position: relative;
+  height: 450px;
+  h1 {
+    padding-top: 120px;
+  }
+  &__hill, &__house, &__birds1, &__birds2, &__sun  {
+    position: absolute;
+  }
+  &__hill {
+    bottom: 0;
+    right: 0;
+  }
+  &__house {
+    right: 110px;
+    bottom: -30px;
+  }
+  &__birds1 {
+    right: 470px;
+    bottom: 75px;
+  }
+  &__birds2 {
+    right: 40px;
+    bottom: 150px;
+  }
+  &__sun {
+    right: 365px;
+    bottom: 100px;
   }
 }

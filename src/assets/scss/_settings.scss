@@ -82,6 +82,7 @@ $black: #0a0a0a;
 $white: #fefefe;
 $jet: #222222;
 $blue: #00aeef;
+$white-smoke : #F5F5F5;
 $header-color: #686868;
 $body-background: $white;
 $body-font-color: $black;
@@ -852,7 +853,7 @@ $topbar-padding: 0.5rem;
 $topbar-background: $white;
 $topbar-link-color: $black; /* create by me  */
 $topbar-link-hover-color: $blue; /* create by me  */
-$topbar-submenu-background: $topbar-background;
+$topbar-submenu-background: $white-smoke;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
