@@ -99,3 +99,30 @@
     bottom: 100px;
   }
 }
+
+.services {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  img {
+    height: 85px;
+    margin-bottom: 35px;
+  }
+  p {
+    padding: 0 48px;
+  }
+}
+
+.action-wrapper {
+  background: url('../img/content/tour-bg.png') center repeat-x;
+  background-color: #fbfafa;
+  height: 157px;
+  h1 {
+    color: #404040;
+  }
+}
+
+.features {
+  &__single-features {
+    padding: 40px 0;
+  }
+}
