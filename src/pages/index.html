@@ -1,153 +1,169 @@
 <div class="grid-container">
-  <div class="grid-x grid-margin-x">
-    <div class="large-12 cell">
-      <h1>Welcome to Foundation for Sites</h1>
+  <div class="title-bar" data-responsive-toggle="dropdown-menu" data-hide-for="medium">
+    <div class="title-bar-left">
+      <div class="title-bar-title"><img src="assets/img/logo.png" alt=""></div>
     </div>
-  </div> 
-
-  <div class="grid-x grid-margin-x">
-    <div class="large-12 cell">
-      <div class="callout">
-        <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-        <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-        <p>Once you've exhausted the fun in this document, you should check out:</p>
-        <div class="grid-x grid-margin-x">
-          <div class="large-4 medium-4 cell">
-            <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-          </div>
-          <div class="large-4 medium-4 cell">
-            <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-          </div>
-          <div class="large-4 medium-4 cell">
-            <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowledge.</p>
-          </div>
-        </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-4 medium-4 medium-push-2 cell">
-            <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-          </div>
-          <div class="large-4 medium-4 medium-pull-2 cell">
-            <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-          </div>        
-        </div>
-      </div>
+    <div class="title-bar-right">
+      <button class="menu-icon" type="button" data-toggle="dropdown-menu"></button>
     </div>
   </div>
 
-  <div class="grid-x grid-margin-x">
-    <div class="large-8 medium-8 cell">
-      <h5>Here&rsquo;s your basic grid:</h5>
-      <!-- Grid Example -->
+  <div class="top-bar" id="dropdown-menu">
+    <div class="hide-for-small-only">
+      <img src="assets/img/logo.png" alt="">
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu vertical medium-horizontal dropdown" data-responsive-menu="accordion medium-dropdown">
+        <li class="is-active"><a href="#">MENU <i class="fa fa-angle-down"></i></a></li>
+        <li class="has-submenu">
+          <a href="#0">PAGES</a>
+          <ul class="menu vertical" data-submenu>
+            <li><a href="#0">Services</a></li>
+            <li><a href="#0">Contact Us</a></li>
+            <li><a href="#0">About Us</a></li>
+          </ul>
+        </li>
+        <li><a href="#">BLOG <i class="fa fa-angle-down"></i></a></li>
+        <li><a href="#">PORTFOLIO <i class="fa fa-angle-down"></i></a></li>
+      </ul>
+    </div>
+  </div>
 
-      <div class="grid-x grid-margin-x">
-        <div class="large-12 cell">
-          <div class="primary callout">
-            <p><strong>This is a twelve column section in a grid-x with grid-margin-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-          </div>
-        </div>
+  <div class="grid-x">
+    <div class="large-4 cell">
+      <h1>We Are Creative Nerds</h1>
+      <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
+      <a href="#" class="button">SIGN UP</a>
+    </div>
+    <div class="large-8 cell">
+      <img src="assets/img/home/hill.png" alt="">
+      <img src="assets/img/home/house.png" alt="">
+      <img src="assets/img/home/birds1.png" alt="">
+      <img src="assets/img/home/birds2.png" alt="">
+      <img src="assets/img/home/sun.png" alt="">
+    </div>
+  </div>
+
+  <section>
+    <div class="grid-x">
+      <div class="large-4 cell">
+        <img src="assets/img/content/icon1.png" alt="">
+        <h2>Incredibly Responsive</h2>
+        <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
       </div>
-      <div class="grid-x grid-margin-x">
-        <div class="large-6 medium-6 cell">
-          <div class="primary callout">
-            <p>Six cell</p>
-          </div>
-        </div>
-        <div class="large-6 medium-6 cell">
-          <div class="primary callout">
-            <p>Six cell</p>
-          </div>
-        </div>
+      <div class="large-4 cell">
+        <img src="assets/img/content/icon2.png" alt="">
+        <h2>Superior Typography</h2>
+        <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
       </div>
-      <div class="grid-x grid-margin-x">
-        <div class="large-4 medium-4 small-4 cell">
-          <div class="primary callout">
-            <p>Four cell</p>
-          </div>
-        </div>
-        <div class="large-4 medium-4 small-4 cell">
-          <div class="primary callout">
-            <p>Four cell</p>
-          </div>
-        </div>
-        <div class="large-4 medium-4 small-4 cell">
-          <div class="primary callout">
-            <p>Four cell</p>
-          </div>
-        </div>
+      <div class="large-4 cell">
+        <img src="assets/img/content/icon3.png" alt="">
+        <h2>Swift Page Builder</h2>
+        <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
       </div>
-      
-      <hr />
-              
-      <h5>We bet you&rsquo;ll need a form somewhere:</h5>
+    </div>
+  </section>
+
+  <section>
+    <div class="grid-x">
+      <div class="large-7 cell">
+        <h1>Triangle Corporate Template</h1>
+        <p>A responsive, retina-ready & wide multipurpose template.</p>
+      </div>
+      <div class="large-5 cell">
+        <a href="#" class="button">TAKE THE TOUR</a>
+        <img src="assets/img/content/tour-icon2.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="grid-x">
+      <div class="large-6 cell"><img src="assets/img/content/image1.png" alt=""></div>
+      <div class="large-6 cell">
+        <h2>Experienced and Enthusiastic</h2>
+        <p>Pork belly leberkas cow short ribs capicola pork loin. Doner fatback frankfurter jerky meatball pastrami bacon tail sausage. Turkey fatback ball tip, tri-tip tenderloin drumstick salami strip steak.</p>
+      </div>
+      <div class="large-6 cell">
+        <h2>Built for the Responsive Web</h2>
+        <p>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</p>
+      </div>
+      <div class="large-6 cell"><img src="assets/img/content/image2.png" alt=""></div>
+      <div class="large-6 cell"><img src="assets/img/content/image3.png" alt=""></div>
+      <div class="large-6 cell">
+        <h2>Experienced and Enthusiastic</h2>
+        <p>Ut officia cupidatat anim excepteur fugiat cillum ea occaecat rump pork chop tempor. Ut tenderloin veniam commodo. Shankle aliquip short ribs, chicken eiusmod exercitation shank landjaeger spare ribs corned beef.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid-x">
+    <div class="cell text-center">
+      <img src="assets/img/clients/clients.png" alt="">
+      <h1>Happy Clients</h1>
+      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud</p>
+      <ul class="menu align-center">
+        <li><a href=""><img src="assets/img/clients/client1.png" alt=""></a></li>
+        <li><a href=""><img src="assets/img/clients/client1.png" alt=""></a></li>
+        <li><a href=""><img src="assets/img/clients/client3.png" alt=""></a></li>
+        <li><a href=""><img src="assets/img/clients/client4.png" alt=""></a></li>
+        <li><a href=""><img src="assets/img/clients/client5.png" alt=""></a></li>
+        <li><a href=""><img src="assets/img/clients/client6.png" alt=""></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="grid-x">
+    <div class="cell text-center">
+      <img src="assets/img/under.png" alt="">
+    </div>
+    <div class="large-4 cell">
+      <h2>Testimonial</h2>
+      <blockquote>
+        "Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail."
+      </blockquote>
+      <h3><a href="">- Jhon Kalis</a></h3>
+      <blockquote>
+        "Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod."
+      </blockquote>
+      <h3><a href="">- Abraham Josef</a></h3>
+    </div>
+    <div class="large-4 cell">
+      <h2>Contacts</h2>
+      <address>
+        E-mail: <a href="mailto:someone@example.com">email@cuemby.com</a><br>
+        Phone: +1 (123) 456 7890 <br>
+        Fax: +1 (123) 456 7981 <br>
+      </address>
+      <h2>Address</h2>
+      <address>
+        Unit C2, St.Vincent's Trading Est., <br>
+        Feeder Road, <br>
+        Bristol, BS2 0UY <br>
+        United Kingdom <br>
+      </address>
+    </div>
+    <div class="large-4 cell">
+      <h2>Send a message</h2>
       <form>
-        <div class="grid-x grid-margin-x">
-          <div class="large-12 cell">
-            <label>Input Label</label>
-            <input type="text" placeholder="large-12.cell" />
-          </div>
-        </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-4 medium-4 cell">
-            <label>Input Label</label>
-            <input type="text" placeholder="large-4.cell" />
-          </div>
-          <div class="large-4 medium-4 cell">
-            <label>Input Label</label>
-            <input type="text" placeholder="large-4.cell" />
-          </div>
-          <div class="large-4 medium-4 cell">
-            <div class="grid-x grid-margin-x collapse">
-              <label>Input Label</label>
-              <div class="input-group">
-                <input class="input-group-field" type="text" placeholder="input-group" />
-                <span class="input-group-label">.com</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-12 cell">
-            <label>Select Box</label>
-            <select>
-              <option value="husker">Husker</option>
-              <option value="starbuck">Starbuck</option>
-              <option value="hotdog">Hot Dog</option>
-              <option value="apollo">Apollo</option>
-            </select>
-          </div>
-        </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-6 medium-6 cell">
-            <label>Choose Your Favorite</label>
-            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-            <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-          </div>
-          <div class="large-6 medium-6 cell">
-            <label>Check these out</label>
-            <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-            <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-          </div>
-        </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-12 cell">
-            <label>Textarea Label</label>
-            <textarea placeholder="small-12.cell"></textarea>
-          </div>
+        <div class="cell">
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Email">
+          <textarea rows="6" placeholder="Your text here"></textarea>
+          <a href="#" class="button expanded">SUBMIT</a>
         </div>
       </form>
-    </div>     
-
-    <div class="large-4 medium-4 cell">
-      <h5>Try one of these buttons:</h5>
-      <p><a href="#" class="small button">Simple Button</a><br/>          
-      <a href="#" class="medium success button">Success Btn</a><br/>
-      <a href="#" class="medium alert button">Alert Btn</a><br/>
-      <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-      <div class="callout">
-        <h5>So many components, girl!</h5>
-        <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-        <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-      </div>
     </div>
-  </div>
+    <div class="cell text-center">
+      <ul class="menu align-center">
+        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+        <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+      <p>© Sam Alvarez 2017. All Rights Reserved.</p>
+      <p>Designed by <a target="_blank" href="http://www.themeum.com">Themeum</a></p>
+    </div>
+  </footer>
 </div>
