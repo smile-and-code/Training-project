@@ -75,26 +75,26 @@
   h1 {
     padding-top: 120px;
   }
-  &__hill, &__house, &__birds1, &__birds2, &__sun  {
+  .hill, .house, .birds1, .birds2, .sun  {
     position: absolute;
   }
-  &__hill {
+  .hill {
     bottom: 0;
     right: 0;
   }
-  &__house {
+  .house {
     right: 110px;
     bottom: -30px;
   }
-  &__birds1 {
+  .birds1 {
     right: 470px;
     bottom: 75px;
   }
-  &__birds2 {
+  .birds2 {
     right: 40px;
     bottom: 150px;
   }
-  &__sun {
+  .sun {
     right: 365px;
     bottom: 100px;
   }
