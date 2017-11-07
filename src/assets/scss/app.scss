@@ -123,6 +123,28 @@
 
 .features {
   &__single-features {
-    padding: 40px 0;
+    padding: 50px 0;
+  }
+}
+
+.clients {
+  padding-bottom: 45px;
+  .menu li {
+    padding: 0 15px;
+  }
+}
+
+footer {
+  background: url('../img/footer.png') no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  .bottom-separator {
+    margin-bottom: 60px;
+  }
+  .information {
+    padding-bottom: 60px;
+    h2 {
+      padding-bottom: 20px;
+    }
   }
 }
