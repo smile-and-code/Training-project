@@ -62,6 +62,24 @@
 
 @import 'util/util';
 
+// Create by me
+// -------------
+$jet:                       #222222;
+$blue:                      #00aeef;
+$black:                     #0a0a0a;
+$gray25:                    #404040;
+$snow:                      #fbfafa;
+$dimgray:                   #686868;
+$blue-cloud:                #4fcccd;
+$white-smoke:               #F5F5F5;
+$topbar-link-color:         $black;
+$topbar-link-hover-color:   $blue;
+$action-wrapper-bg-color:   $snow;
+$action-wrapper-h1-color:   $gray25;
+$form-button-bg-color:      $blue-cloud;
+$form-button-border-color:  $form-button-bg-color;
+
+
 // 1. Global
 // ---------
 
@@ -78,12 +96,7 @@ $foundation-palette: (
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
 $white: #fefefe;
-$jet: #222222;
-$blue: #00aeef;
-$white-smoke : #F5F5F5;
-$header-color: #686868;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Lato', Helvetica, Roboto, Arial, sans-serif;
@@ -138,7 +151,7 @@ $header-font-family: $body-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
-$header-color: $header-color;
+$header-color: $dimgray;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
@@ -851,8 +864,6 @@ $tooltip-radius: $global-radius;
 
 $topbar-padding: 0.5rem;
 $topbar-background: $white;
-$topbar-link-color: $black; /* create by me  */
-$topbar-link-hover-color: $blue; /* create by me  */
 $topbar-submenu-background: $white-smoke;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
