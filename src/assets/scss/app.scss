@@ -210,6 +210,22 @@ footer {
       right: 180px;
     }
   }
+  .action-wrapper {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .features {
+    text-align: center;
+    &__single-features {
+      // padding: 10px;
+    }
+  }
+  .clients {
+    li a  {
+      width: 70px;
+      padding: 0;
+    }
+  }
 }
 
 @media(min-width: 696px) and (max-width: 1024px) {
