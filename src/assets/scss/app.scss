@@ -88,8 +88,14 @@
   .home {
     height: 500px;
     position: relative;
-    .home-headings h1 {
-      padding-top: 30px;
+    .home-headings {
+      text-align: center;
+      @include breakpoint(540px) {
+        text-align: left;
+      }
+      h1 {
+        padding-top: 30px;
+      }
     }
     .home-images {
       .hill {
@@ -199,15 +205,9 @@
 }
 
 
-//****************  Media Queries ******************//
+//****************  Breakpoints ******************//
 
-@media(max-width: 540px) {
-  .home-headings {
-    text-align: center;
-  }
-}
-
-@media(max-width: 710px) {
+@include breakpoint(710px down) {
   .home-wrapper {
     .home {
       .home-images {
