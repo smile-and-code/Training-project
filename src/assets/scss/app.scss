@@ -207,6 +207,17 @@
 
 //****************  Breakpoints ******************//
 
+@include breakpoint(medium) {
+  .home-wrapper {
+    .home {
+      .home-headings {
+        h1 {
+          padding-top: 80px;
+        }
+      }
+    }
+  }
+}
 
 @include breakpoint(710px down) {
   .home-wrapper {
