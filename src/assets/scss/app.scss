@@ -145,6 +145,16 @@
   h1 {
     color: $action-wrapper-h1-color;
   }
+  .action-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (min-width: 710px) {
+      div img {
+        width: 68%;
+      }
+    }
+  }
 }
 
 //****************  Features Section ******************//
