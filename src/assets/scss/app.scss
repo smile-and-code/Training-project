@@ -120,7 +120,13 @@
 //****************  Services Section ******************//
 
 .services {
+  display: flex;
+  flex-direction: column;
   padding: 70px 0 50px;
+  @media screen and (min-width: 710px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
   img {
     height: 85px;
     margin-bottom: 35px;
@@ -164,7 +170,11 @@
   background: url('../img/footer.png') no-repeat;
   background-position: bottom;
   background-size: contain;
-
+  width: 100%;
+  @media screen and (min-width: 64em) {
+    background-position: top;
+    background-size: cover;
+  }
   .bottom-separator {
     margin-bottom: 60px;
   }
@@ -187,6 +197,7 @@
   }
 
   footer {
+    padding-bottom: 10px;
     .menu li a {
       color: $jet;
       font-size: 18px;
